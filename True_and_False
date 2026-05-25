@@ -5,18 +5,17 @@ if a == b:
 else:
     print("False")
     
-"""    
-|  Invoer (a, b)| Verwachte uitvoer | Uitvoer | Opmerkingen |{
-| 1.2, 3.3      | False             | False   | Ongelijke getallen |
-| 3.3, 3.3      | True              | True    | Gelijke getallen |
-| 5, 5          | True              | True    | Exact gelijk |
-| 10, 9         | False             | False   | Verschil van 1 |
-| 0, 0          | True              | True    | Beide nul |
-| -2, 2         | False             | False   | Negatief vs positief |
-| 1.000, 1      | True              | True    | Numeriek gelijk ondanks notatie |
-| 4.5, 4.50     | True              | True    | Zelfde waarde, andere schrijfwijze |
-| 100, 99.999   | False             | False   | Bijna gelijk maar niet exact |
-| 7, 7.0        | True              | True    | Int vs float maar gelijk |
-| 8.1, 8.10     | True              | True    | Floatvergelijking, zelfde waarde |}
-"""
+# |  Invoer (a, b)| Verwachte uitvoer | Uitvoer | Opmerkingen |{
+# | 1.2, 3.3      | False             | False   | Ongelijke getallen |
+# | 3.3, 3.3      | True              | True    | Gelijke getallen |
+# | 5, 5          | True              | True    | Exact gelijk |
+# | 10, 9         | False             | False   | Verschil van 1 |
+# | 0, 0          | True              | True    | Beide nul |
+# | -2, 2         | False             | False   | Negatief vs positief |
+# | 1.000, 1      | True              | True    | Numeriek gelijk ondanks notatie |
+# | 4.5, 4.50     | True              | True    | Zelfde waarde, andere schrijfwijze |
+# | 100, 99.999   | False             | False   | Bijna gelijk maar niet exact |
+# | 7, 7.0        | True              | True    | Int vs float maar gelijk |
+# | 8.1, 8.10     | True              | True    | Floatvergelijking, zelfde waarde |}
+
   
