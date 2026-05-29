@@ -17,3 +17,4 @@ else:
 # | 100, 99.999   | False             | False   | Bijna gelijk maar niet exact |
 # | 7, 7.0        | True              | True    | Int vs float maar gelijk |
 # | 8.1, 8.10     | True              | True    | Floatvergelijking, zelfde waarde |}
+#hallo
